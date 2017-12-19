@@ -125,68 +125,68 @@ namespace MultiMedia
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f080009
+			public const int artwork = 2131230729;
+			
 			// aapt resource value: 0x7f080008
-			public const int artwork = 2131230728;
-			
-			// aapt resource value: 0x7f080007
-			public const int back = 2131230727;
-			
-			// aapt resource value: 0x7f080003
-			public const int btnMusicPlayer = 2131230723;
-			
-			// aapt resource value: 0x7f080005
-			public const int btnSoundRecorder = 2131230725;
+			public const int back = 2131230728;
 			
 			// aapt resource value: 0x7f080004
-			public const int btnVideoPlayer = 2131230724;
+			public const int btnMusicPlayer = 2131230724;
 			
-			// aapt resource value: 0x7f080012
-			public const int controlSet1 = 2131230738;
+			// aapt resource value: 0x7f080006
+			public const int btnSoundRecorder = 2131230726;
 			
-			// aapt resource value: 0x7f080015
-			public const int controlSet2 = 2131230741;
-			
-			// aapt resource value: 0x7f080018
-			public const int controlSet3 = 2131230744;
-			
-			// aapt resource value: 0x7f080011
-			public const int controlsLt = 2131230737;
+			// aapt resource value: 0x7f080005
+			public const int btnVideoPlayer = 2131230725;
 			
 			// aapt resource value: 0x7f080013
-			public const int fileBtn = 2131230739;
+			public const int controlSet1 = 2131230739;
+			
+			// aapt resource value: 0x7f080016
+			public const int controlSet2 = 2131230742;
+			
+			// aapt resource value: 0x7f080019
+			public const int controlSet3 = 2131230745;
+			
+			// aapt resource value: 0x7f080012
+			public const int controlsLt = 2131230738;
+			
+			// aapt resource value: 0x7f080014
+			public const int fileBtn = 2131230740;
 			
 			// aapt resource value: 0x7f080002
 			public const int linearLayout1 = 2131230722;
 			
-			// aapt resource value: 0x7f08000c
-			public const int nextSong = 2131230732;
-			
 			// aapt resource value: 0x7f08000d
-			public const int pause = 2131230733;
-			
-			// aapt resource value: 0x7f08000b
-			public const int play = 2131230731;
-			
-			// aapt resource value: 0x7f080016
-			public const int playBtn = 2131230742;
-			
-			// aapt resource value: 0x7f080010
-			public const int playerVw = 2131230736;
-			
-			// aapt resource value: 0x7f08000a
-			public const int prevSong = 2131230730;
+			public const int nextSong = 2131230733;
 			
 			// aapt resource value: 0x7f08000e
-			public const int record = 2131230734;
+			public const int pause = 2131230734;
 			
-			// aapt resource value: 0x7f080014
-			public const int recordBtn = 2131230740;
+			// aapt resource value: 0x7f08000c
+			public const int play = 2131230732;
 			
-			// aapt resource value: 0x7f080009
-			public const int songTitle = 2131230729;
+			// aapt resource value: 0x7f080017
+			public const int playBtn = 2131230743;
 			
-			// aapt resource value: 0x7f080006
-			public const int songsList = 2131230726;
+			// aapt resource value: 0x7f080011
+			public const int playerVw = 2131230737;
+			
+			// aapt resource value: 0x7f08000b
+			public const int prevSong = 2131230731;
+			
+			// aapt resource value: 0x7f08000f
+			public const int record = 2131230735;
+			
+			// aapt resource value: 0x7f080015
+			public const int recordBtn = 2131230741;
+			
+			// aapt resource value: 0x7f08000a
+			public const int songTitle = 2131230730;
+			
+			// aapt resource value: 0x7f080007
+			public const int songsList = 2131230727;
 			
 			// aapt resource value: 0x7f080000
 			public const int start = 2131230720;
@@ -194,14 +194,17 @@ namespace MultiMedia
 			// aapt resource value: 0x7f080001
 			public const int stop = 2131230721;
 			
-			// aapt resource value: 0x7f080017
-			public const int stopBtn = 2131230743;
+			// aapt resource value: 0x7f080018
+			public const int stopBtn = 2131230744;
 			
-			// aapt resource value: 0x7f08000f
-			public const int videoLt = 2131230735;
+			// aapt resource value: 0x7f080003
+			public const int textView1 = 2131230723;
 			
-			// aapt resource value: 0x7f080019
-			public const int video_infoTvw = 2131230745;
+			// aapt resource value: 0x7f080010
+			public const int videoLt = 2131230736;
+			
+			// aapt resource value: 0x7f08001a
+			public const int video_infoTvw = 2131230746;
 			
 			static Id()
 			{
