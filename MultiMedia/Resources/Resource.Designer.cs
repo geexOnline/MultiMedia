@@ -80,34 +80,37 @@ namespace MultiMedia
 			public const int acousticbreeze = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int back = 2130837505;
+			public const int audiobkg = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int happiness = 2130837506;
+			public const int back = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int happiness = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int img_174171 = 2130837508;
+			public const int Icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int pause_button_png_image_80706 = 2130837509;
+			public const int img_174171 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int play_button = 2130837510;
+			public const int pause_button_png_image_80706 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int prev_song = 2130837511;
+			public const int play_button = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int record_button = 2130837512;
+			public const int prev_song = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int stop = 2130837513;
+			public const int record_button = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int sweet = 2130837514;
+			public const int stop = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int sweet = 2130837515;
 			
 			static Drawable()
 			{
@@ -122,23 +125,11 @@ namespace MultiMedia
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08001d
-			public const int Play = 2131230749;
-			
-			// aapt resource value: 0x7f08001b
-			public const int Record = 2131230747;
-			
-			// aapt resource value: 0x7f08001e
-			public const int SampleVideoView = 2131230750;
-			
-			// aapt resource value: 0x7f08001c
-			public const int Stop = 2131230748;
-			
-			// aapt resource value: 0x7f080009
-			public const int artwork = 2131230729;
-			
 			// aapt resource value: 0x7f080008
-			public const int back = 2131230728;
+			public const int artwork = 2131230728;
+			
+			// aapt resource value: 0x7f080007
+			public const int back = 2131230727;
 			
 			// aapt resource value: 0x7f080003
 			public const int btnMusicPlayer = 2131230723;
@@ -149,56 +140,53 @@ namespace MultiMedia
 			// aapt resource value: 0x7f080004
 			public const int btnVideoPlayer = 2131230724;
 			
-			// aapt resource value: 0x7f080006
-			public const int btnVideoRecorder = 2131230726;
+			// aapt resource value: 0x7f080012
+			public const int controlSet1 = 2131230738;
+			
+			// aapt resource value: 0x7f080015
+			public const int controlSet2 = 2131230741;
+			
+			// aapt resource value: 0x7f080018
+			public const int controlSet3 = 2131230744;
+			
+			// aapt resource value: 0x7f080011
+			public const int controlsLt = 2131230737;
 			
 			// aapt resource value: 0x7f080013
-			public const int controlSet1 = 2131230739;
-			
-			// aapt resource value: 0x7f080016
-			public const int controlSet2 = 2131230742;
-			
-			// aapt resource value: 0x7f080019
-			public const int controlSet3 = 2131230745;
-			
-			// aapt resource value: 0x7f080012
-			public const int controlsLt = 2131230738;
-			
-			// aapt resource value: 0x7f080014
-			public const int fileBtn = 2131230740;
+			public const int fileBtn = 2131230739;
 			
 			// aapt resource value: 0x7f080002
 			public const int linearLayout1 = 2131230722;
 			
-			// aapt resource value: 0x7f08000d
-			public const int nextSong = 2131230733;
-			
-			// aapt resource value: 0x7f08000e
-			public const int pause = 2131230734;
-			
 			// aapt resource value: 0x7f08000c
-			public const int play = 2131230732;
+			public const int nextSong = 2131230732;
 			
-			// aapt resource value: 0x7f080017
-			public const int playBtn = 2131230743;
-			
-			// aapt resource value: 0x7f080011
-			public const int playerVw = 2131230737;
+			// aapt resource value: 0x7f08000d
+			public const int pause = 2131230733;
 			
 			// aapt resource value: 0x7f08000b
-			public const int prevSong = 2131230731;
+			public const int play = 2131230731;
 			
-			// aapt resource value: 0x7f08000f
-			public const int record = 2131230735;
+			// aapt resource value: 0x7f080016
+			public const int playBtn = 2131230742;
 			
-			// aapt resource value: 0x7f080015
-			public const int recordBtn = 2131230741;
+			// aapt resource value: 0x7f080010
+			public const int playerVw = 2131230736;
 			
 			// aapt resource value: 0x7f08000a
-			public const int songTitle = 2131230730;
+			public const int prevSong = 2131230730;
 			
-			// aapt resource value: 0x7f080007
-			public const int songsList = 2131230727;
+			// aapt resource value: 0x7f08000e
+			public const int record = 2131230734;
+			
+			// aapt resource value: 0x7f080014
+			public const int recordBtn = 2131230740;
+			
+			// aapt resource value: 0x7f080009
+			public const int songTitle = 2131230729;
+			
+			// aapt resource value: 0x7f080006
+			public const int songsList = 2131230726;
 			
 			// aapt resource value: 0x7f080000
 			public const int start = 2131230720;
@@ -206,14 +194,14 @@ namespace MultiMedia
 			// aapt resource value: 0x7f080001
 			public const int stop = 2131230721;
 			
-			// aapt resource value: 0x7f080018
-			public const int stopBtn = 2131230744;
+			// aapt resource value: 0x7f080017
+			public const int stopBtn = 2131230743;
 			
-			// aapt resource value: 0x7f080010
-			public const int videoLt = 2131230736;
+			// aapt resource value: 0x7f08000f
+			public const int videoLt = 2131230735;
 			
-			// aapt resource value: 0x7f08001a
-			public const int video_infoTvw = 2131230746;
+			// aapt resource value: 0x7f080019
+			public const int video_infoTvw = 2131230745;
 			
 			static Id()
 			{
@@ -245,9 +233,6 @@ namespace MultiMedia
 			
 			// aapt resource value: 0x7f030005
 			public const int VideoMain = 2130903045;
-			
-			// aapt resource value: 0x7f030006
-			public const int VideoRecorder = 2130903046;
 			
 			static Layout()
 			{

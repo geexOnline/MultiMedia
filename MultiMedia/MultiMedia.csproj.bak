@@ -17,7 +17,7 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -62,6 +62,7 @@
     <Compile Include="SongActivity.cs" />
     <Compile Include="Songs.cs" />
     <Compile Include="VideoMainActivity.cs" />
+    <Compile Include="VideoRecorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\AudioRecorder.axml">
@@ -81,6 +82,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\VideoMain.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\VideoRecorder.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -154,9 +158,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\colors.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\audiobkg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

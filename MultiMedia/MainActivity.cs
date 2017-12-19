@@ -18,7 +18,7 @@ namespace MultiMedia
             Button musicPlayer = (Button)FindViewById<Button>(Resource.Id.btnMusicPlayer);
             Button videoPlayer = (Button)FindViewById<Button>(Resource.Id.btnVideoPlayer);
             Button audioRecorder = (Button)FindViewById<Button>(Resource.Id.btnSoundRecorder);
-            Button videoRecorder = (Button)FindViewById<Button>(Resource.Id.btnVideoRecorder);
+            //Button videoRecorder = (Button)FindViewById<Button>(Resource.Id.btnVideoRecorder);
 
             musicPlayer.Click += delegate
             {
@@ -30,11 +30,7 @@ namespace MultiMedia
                 var goVideoPlayer = new Intent(this, typeof(VideoMainActivity));
                 StartActivity(goVideoPlayer);
             };
-            videoRecorder.Click += delegate
-            {
-                var goVideoRecorder = new Intent(this, typeof(VideoRecorder));
-                StartActivity(goVideoRecorder);
-            };
+
             audioRecorder.Click += delegate
             {
                 var goAudioRecorder = new Intent(this, typeof(AudioRecorder));
