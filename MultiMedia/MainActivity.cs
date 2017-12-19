@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
 
 namespace MultiMedia
 {
@@ -13,6 +14,37 @@ namespace MultiMedia
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            Button musicPlayer = (Button)FindViewById<Button>(Resource.Id.btnMusicPlayer);
+            Button videoPlayer = (Button)FindViewById<Button>(Resource.Id.btnVideoPlayer);
+            Button audioRecorder = (Button)FindViewById<Button>(Resource.Id.btnSoundRecorder);
+            Button videoRecorder = (Button)FindViewById<Button>(Resource.Id.btnVideoRecorder);
+
+            musicPlayer.Click += delegate
+            {
+                var goMusicPlayer = new Intent(this, typeof(MusicMain));
+                StartActivity(goMusicPlayer);
+            };
+            videoPlayer.Click += delegate
+            {
+                var goVideoPlayer = new Intent(this, typeof(VideoMainActivity));
+                StartActivity(goVideoPlayer);
+            };
+            videoRecorder.Click += delegate
+            {
+                var goVideoRecorder = new Intent(this, typeof(VideoRecorder));
+                StartActivity(goVideoRecorder);
+            };
+            audioRecorder.Click += delegate
+            {
+                var goAudioRecorder = new Intent(this, typeof(AudioRecorder));
+                StartActivity(goAudioRecorder);
+            };
+
+
+
+
+
         }
     }
 }
